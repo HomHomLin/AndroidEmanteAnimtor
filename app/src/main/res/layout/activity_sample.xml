@@ -1,13 +1,26 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".SampleActivity">
+    android:layout_height="match_parent"
+    tools:context=".SampleActivity">
 
     <com.lhh.aea.emanate.view.EmanateView
         android:id="@+id/evAnim"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
+    <ImageView
+        android:id="@+id/ivGift"
+        android:layout_marginBottom="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/default_gift_color"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+    <Button
+        android:id="@+id/btnGift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Give Gift"/>
 </RelativeLayout>
