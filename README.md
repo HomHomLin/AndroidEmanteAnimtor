@@ -1,5 +1,7 @@
 # AndroidEmanteAnimtor
 
+过时，不再维护
+
 项目需要，所以开发制作的发散曲线的礼物动画。
 
 即将改用openGl绘制。
